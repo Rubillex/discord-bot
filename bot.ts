@@ -57,7 +57,7 @@ client.on(Events.MessageCreate, async (message) => {
   }
 
   if (message.content.toLowerCase().includes('сосал?')) {
-    await message.reply("да");
+    await message.reply("сосал");
   }
 });
 
